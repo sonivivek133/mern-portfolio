@@ -22,11 +22,11 @@ function App() {
     <MobileNav/>
     <div>
       <Layout/>
+      <About/>
       <Education/>
       <Techstack/>
       <Projects/>
       <WorkExp/>
-      <About/>
       <Contact/>
     </div>
     <LightSpeed>

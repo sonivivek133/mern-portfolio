@@ -20,7 +20,7 @@ const Education = () => {
     icon={<MdSchool/>}
   >
     <h3 className="vertical-timeline-element-title">B.Tech </h3> <h5>(Computer Science and Engineering)</h5> 
-    <h5>CGPA : 7.5</h5>
+    <h5>Percentage : 75%</h5>
     <h4 className="vertical-timeline-element-subtitle">Lovely Professional University</h4>
     <h5 className="vertical-timeline-element-subtitle">Jalandhar, Punjab</h5>
     

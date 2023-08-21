@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import InstanBookingFrontPage from "../../assets/Images/InstantBookingFrontPage.png";
 import NetflixReplicaFrontPage from "../../assets/Images/NetflixReplicaFrontPage.png"
+import MERN_Portfolio from '../../assets/Images/MERN_Portfolio.png'
 const Projects = () => {
   return (
     <div>
@@ -117,17 +118,17 @@ const Projects = () => {
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Full Stack</span>
-                <img src={InstanBookingFrontPage} alt="project1" />
+                <img src={MERN_Portfolio} alt="project1" />
               </div>
               <div className="card-image-overly m-auto mt-3">
                 <span className="card-detail-badge">React</span>
                 <span className="card-detail-badge">Node</span>
                 <span className="card-detail-badge">Express</span>
-                <span className="card-detail-badge">MongoDB</span>
+                
               </div>
               <div className="card-body text-center">
                 <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">InstatBooking</h5>
+                  <h5 className="text-uppercase">MERN Portfolio</h5>
                 </div>
               </div>
               <h5
@@ -141,23 +142,18 @@ const Projects = () => {
                 
                 }}
               >
-                • InstantBooking is
-                a Hotel Reservation/Booking Application built using React.Js, Node.Js,
-                Express, MongoDB, ejs, Mongoose, ContextAPI, JWT, custom hooks,
-                and React calendar. 
+                • It is a DYNAMIC MERN Portfolio built using React Js, Node Js and Express.
                 
                 <hr style={{color:"white"}} />
-                • We can give Search Inputs and Price Range
-                and it will fetch the List containing full hotel information
-                with images and also calculates the price according to date
-                range and room numbers.It has many functionalities like
-                Authentication (Login / Register) etc. It also has an Admin
-                Dashboard and we will be able to delete items and create new
-                ones
+                • The interface features an expandable and collapsible sidebar.By clicking on the icons within the sidebar, users can navigate to various sections seamlessly.Additionally, the interface boasts Impressive Animation Effects.
+ 
+                <hr style={{color:"white"}} />
+
+                • On the contact page, individuals have the option to Send me an Email by clicking the "Send Message" button and It is responsive also.
               </h5>
               <a
                 className="ad-btn"
-                href="https://booking-client-two.vercel.app/"
+                href="https://mern-portfolio-main.vercel.app/"
               >
                 View
               </a>
