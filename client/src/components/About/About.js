@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import PrfilePic from "../../assets/Images/Profilepic.jpeg";
+// import PrfilePic from "../../assets/Images/Profilepi.jpeg";
 import Jump from "react-reveal/Jump";
 
 const About = () => {
@@ -13,7 +13,7 @@ const About = () => {
               <img
                 height="150px"
                 width="150px"
-                src={PrfilePic}
+                // src={PrfilePic}
                 alt="Profile Pic"
               />
             </div>

@@ -13,7 +13,7 @@ import {
   FcVoicePresentation,
 } from "react-icons/fc";
 import { Link } from "react-scroll";
-import ProfilePic from "../../assets/Images/Profilepic.jpeg";
+// import ProfilePic from "../../assets/Images/Profilepic.jpeg";
 const Menus = ({ toggle }) => {
   return (
     <div>
@@ -21,7 +21,9 @@ const Menus = ({ toggle }) => {
         <div>
            <Zoom>
            <div className="navbar-profile-pic">
-            <img src={ProfilePic} alt="profie pic" />
+            <img 
+            // src={ProfilePic} 
+            alt="profie pic" />
           </div>
            </Zoom>
           
